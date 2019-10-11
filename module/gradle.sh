@@ -1,0 +1,1 @@
+alias gdv="gradle -version"

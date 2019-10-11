@@ -1,0 +1,16 @@
+# export M2_HOME="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"
+# export M2=$M2_HOME/bin
+# export PATH="$PATH:/Applications/IntelliJ\ IDEA\ CE.app/Contents/plugins/maven/lib/maven3/bin"
+# export PATH="$PATH:/usr/local/mysql/bin"
+# export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# export PATH="$PATH:~/Documents/Extensions/mongodb-osx-x86_64-3.6.4/bin"
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
+# export JAVA_HOME="/Applications/IntelliJ IDEA CE.app/Contents/jdk/Contents/Home/jre"
+# export ANDROID_HOME="~/Library/Android/sdk"
+# export ANDROID_SDK_ROOT="~/Library/Android/sdk"
+# export PATH="$PATH:$ANDROID_HOME/tools"
+# export PATH="$PATH:$ANDROID_HOME/platform-tools"
+# export ANDROID_HOME=/usr/local/share/android-sdk
+# export PATH="$PATH:~/Documents/Extensions/flutter/bin"
+export PATH="$PATH:/Applications/Fork.app/Contents/Resources"

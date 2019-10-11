@@ -1,0 +1,16 @@
+alias gb="git branch"
+alias gba="git branch -a"
+alias gc="git checkout"
+alias gcm="gs master"
+alias gcma="ls | xargs -P10 -I{} git -C {} checkout master"
+alias ga="git add"
+alias gaa="git add -A"
+alias gp="git push"
+alias gpa="git push --all -u"
+alias gs="git status"
+alias gss="git status -s"
+alias gl="git pull"
+alias gla="ls | xargs -P10 -I{} git -C {} pull"
+
+# Git Client
+alias fork="fork_cli"
