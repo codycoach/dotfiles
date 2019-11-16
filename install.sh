@@ -1,0 +1,1 @@
+cp ./core/.zshrc ~

@@ -134,7 +134,7 @@ POWERLEVEL9K_STATUS_ERROR_BACKGROUND="white"
 plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source $DOTFILE/.bash_profile
+source $DOTFILE/core/.bash_profile
 
 # User configuration
 
@@ -150,6 +150,10 @@ export LANG=en_US.UTF-8
 # else
 #   export EDITOR='mvim'
 # fi
+
+for file in $DOTFILE/module/*.sh;
+	do source $file
+done
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
