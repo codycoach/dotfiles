@@ -15,6 +15,8 @@ brew install kafka
 brew install scala
 brew install mongodb-community
 brew install go
+brew install trash
+brew install wrk
 
 brew cask install font-sourcecodepro-nerd-font
 brew cask install adoptopenjdk8
@@ -29,3 +31,4 @@ brew cask install mongodb/brew/mongodb-community
 brew cask install google-chat
 brew cask install dbeaver-community
 brew cask install wireshark
+brew cask install bloomrpc
