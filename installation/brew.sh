@@ -18,7 +18,8 @@ brew install go
 brew install trash
 brew install wrk
 
-brew cask install font-sourcecodepro-nerd-font
+#brew cask install font-sourcecodepro-nerd-font
+brew cask install font-firacode-nerd-font
 brew cask install adoptopenjdk8
 brew cask install iterm2
 brew cask install docker
