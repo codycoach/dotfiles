@@ -27,7 +27,7 @@ dksh() {
 }
 
 dkba() {
-	docker exec -it ${1} /bin/bash;
+	docker exec -it --user root ${1} /bin/bash;
 }
 
 dkcp() {

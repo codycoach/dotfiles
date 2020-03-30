@@ -11,6 +11,7 @@ alias gs="git status"
 alias gss="git status -s"
 alias gl="git pull"
 alias gla="ls | xargs -P10 -I{} git -C {} pull"
+alias gpp="git config user.name CodyCoach; git config user.email coach.sathik@gmail.com"
 
 # Git Client
 alias fork="fork_cli"

@@ -17,6 +17,10 @@ brew install mongodb-community
 brew install go
 brew install trash
 brew install wrk
+brew install neovim
+brew install protobuf
+brew install awscli
+brew install redis
 
 #brew cask install font-sourcecodepro-nerd-font
 brew cask install font-firacode-nerd-font
@@ -33,3 +37,7 @@ brew cask install google-chat
 brew cask install dbeaver-community
 brew cask install wireshark
 brew cask install bloomrpc
+brew cask install goland
+brew cask install android-studio
+
+brew link --force --overwrite protobuf

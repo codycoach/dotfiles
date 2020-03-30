@@ -15,3 +15,8 @@ b64e() {
 b64d() {
   echo -n "${1}" | base64 -D | pbcopy
 }
+
+# Open browser with localhost and port
+lc() {
+  open "http://localhost:${1}"
+}
