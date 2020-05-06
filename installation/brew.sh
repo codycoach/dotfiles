@@ -4,6 +4,7 @@ brew tap homebrew/cask-versions
 brew tap homebrew/cask-fonts
 brew tap mongodb/brew
 
+brew install git
 brew install docker
 brew install maven
 brew install jmeter
