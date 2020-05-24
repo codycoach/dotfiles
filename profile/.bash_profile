@@ -1,4 +1,4 @@
-export $DOTFILES_DIR="~/Repository/Personal/dotfiles/"
+export DOTFILES_DIR="~/Repository/Personal/dotfiles/"
 
 for file in ${DOTFILES_DIR}profile/module/*.sh;
 	do source $file
