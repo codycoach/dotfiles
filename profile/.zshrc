@@ -3,13 +3,17 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/"$USER"/.oh-my-zsh"
-export DOTFILE="/Users/"$USER"/Documents/Repository/Personal/dotfiles"
+export DOTFILES_DIR="/Users/"$USER"/Repository/Personal/dotfiles"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+
+ZSH_DISABLE_COMPFIX=true
+
 ZSH_THEME="powerlevel9k/powerlevel9k"
+
 POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
@@ -134,7 +138,7 @@ POWERLEVEL9K_STATUS_ERROR_BACKGROUND="white"
 plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source $DOTFILE/core/.bash_profile
+source $DOTFILES_DIR/profile/main.sh
 
 # User configuration
 
@@ -150,10 +154,6 @@ export LANG=en_US.UTF-8
 # else
 #   export EDITOR='mvim'
 # fi
-
-for file in $DOTFILE/module/*.sh;
-	do source $file
-done
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

@@ -1,5 +1,6 @@
 alias rm="trash"
 alias pwdc="pwd|pbcopy"
+alias ..="cd .."
 
 # mkdir and copy
 mc() {
