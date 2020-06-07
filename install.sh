@@ -8,11 +8,17 @@ osx_setup() {
   source ./installation/npm.sh
   source ./installation/zsh.sh
 
-  cp ./profile/.zshrc ~
+  echo "export PROFILE=OSX" >> ./config/zsh/module/export.sh
+  cp ./config/zsh/.zshrc ~
 }
 
 ubuntu_setup() {
   echo "Installing for Ubuntu..."
+
+  source ./installation/ubuntu/software.sh
+
+  echo "export PROFILE=Ubuntu" >> ./config/zsh/module/export.sh
+  cp ./config/zsh/.zshrc ~
 }
 
 PS3='Please enter your os: '

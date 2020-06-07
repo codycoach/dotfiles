@@ -1,0 +1,15 @@
+# static ip
+# /etc/netplan/
+# sudo netplan apply
+# This is the network config written by 'subiquity'
+network:
+  version: 2
+  ethernets:
+    eth0:
+      addresses:
+        - 192.168.1.140/24
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses:
+          - 8.8.8.8
+          - 8.8.4.4

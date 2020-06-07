@@ -2,8 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/"$USER"/.oh-my-zsh"
-export DOTFILES_DIR="/Users/"$USER"/Repository/Personal/dotfiles"
+export ZSH=$HOME"/.oh-my-zsh"
+export DOTFILES_DIR=$HOME"/Repository/Personal/dotfiles"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -138,7 +138,7 @@ POWERLEVEL9K_STATUS_ERROR_BACKGROUND="white"
 plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source $DOTFILES_DIR/profile/main.sh
+source $DOTFILES_DIR/config/zsh/main.sh
 
 # User configuration
 
