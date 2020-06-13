@@ -5,7 +5,6 @@ setup() {
 
 #  VIM
   cp ./config/general/vim/.vimrc ~/
-  cp -r ./config/general/vim/.vim ~/
 }
 
 osx_setup() {

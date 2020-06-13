@@ -11,5 +11,4 @@ re() {
 
 #  VIM
   cp ${DOTFILES_DIR}/config/general/vim/.vimrc ~/
-  cp -r ${DOTFILES_DIR}/config/general/vim/.vim ~/
 }

@@ -138,7 +138,7 @@ POWERLEVEL9K_STATUS_ERROR_BACKGROUND="white"
 plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source $DOTFILES_DIR/config/zsh/main.sh
+source $DOTFILES_DIR/config/general/zsh/main.sh
 
 # User configuration
 
