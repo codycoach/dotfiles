@@ -13,7 +13,6 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/
 # export PATH="$PATH:$ANDROID_HOME/platform-tools"
 # export ANDROID_HOME=/usr/local/share/android-sdk
 # export PATH="$PATH:~/Documents/Extensions/flutter/bin"
-export DOCKER_HOST=tcp://localhost:2375
 export GOPATH=~/go
 export GOBIN="${GOPATH}/bin"
 export FLUTTERPATH=~/Applications/flutter

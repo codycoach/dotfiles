@@ -10,6 +10,8 @@ alias dkc="dk copy"
 alias dkv="dk volume"
 alias dkvl="dkv ls"
 
+alias dkcwiid="docker-compose -f $repository_dir/Work/wi/wi-id/src/main/docker/docker-compose.yml"
+
 dkvrm() {
   dkv rm ${1:-$(dkvl -q)}
 }

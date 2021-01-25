@@ -1,10 +1,11 @@
 alias rm="trash"
 alias pwdc="pwd|pbcopy"
 alias ..="cd .."
+alias now="date +%s000"
 
 # mkdir and copy
 mc() {
-	mkdir $1 && cd $1
+  mkdir $1 && cd $1
 }
 
 # base 64 encryption
@@ -20,4 +21,10 @@ b64d() {
 # Open browser with localhost and port
 lc() {
   open "http://localhost:${1}"
+}
+
+xc() {
+  result="$(basename -- "${1}").xlsx"
+  mv -- "${1}" $result
+  open $result
 }

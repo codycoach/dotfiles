@@ -40,5 +40,7 @@ brew cask install wireshark
 brew cask install bloomrpc
 brew cask install goland
 brew cask install android-studio
+brew cask install teamviewer
+brew cask install spectacle
 
 brew link --force --overwrite protobuf
